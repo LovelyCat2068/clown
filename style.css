@@ -1,0 +1,27 @@
+body{
+    background-image: url("background.jpg");
+}
+
+label{
+    font-size: larger !important;
+}
+
+#color:hover{
+    background-color: rgba(0, 0, 255, 0);
+    color: turquoise;
+    background-image: url("Pomogranate.png");
+    font-weight: 600;
+}
+
+canvas{
+    animation-name: coco;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+
+@keyframes coco{
+    25%{box-shadow: 1px 1px 38px red;}
+    50%{box-shadow: 1px 1px 38px green;}
+    75%{box-shadow: 1px 1px 38px  yellow;}
+    100%{box-shadow: 1px 1px 38px   blue;}
+}
