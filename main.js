@@ -2,7 +2,7 @@ nose_x = 02;
 nose_y = 02;
 
 function preload(){
-    image = loadImage("nose.png");
+    treacleTart = loadImage("nose.png");
 }
 
 function setup(){
